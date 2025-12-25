@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deforestation</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background: #064e3b;
+  padding: 1rem 2rem;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 1.5rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  position: relative;
+  height: 90vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./photo_2025-12-17_19-29-25.jpg') center/cover no-repeat;
+  overflow: visible;
+}
+
+.hero-box {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 90%;
+  max-width: 520px;
+  max-height: 340px;
+  background: rgba(0,0,0,0.65);
+  padding: 1.8rem;
+  border-radius: 14px;
+  overflow: auto;
+  color: white;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  scrollbar-color: #065f46 #ecfdf5;
+  scrollbar-width: thin;
+}
+
+
+.hero-box h2 {
+  margin-bottom: 0.7rem;
+  color: #ecfdf5;
+}
+
+.hero img {
+  position: absolute;
+  width: 26vw;
+  height: 26vw;
+  max-width: 220px;
+  max-height: 220px;
+  min-width: 140px;
+  min-height: 140px;
+  object-fit: cover;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+.img1 { top: 258px; right: 379px; }
+.img2 { top: 140px; right: 260px; }
+.img3 { top: 260px; right: 140px; }
+.img4 { top: 377px; right: 260px; }
+
+.content {
+  padding: 3rem 2rem;
+}
+
+.content h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #065f46;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: #ecfdf5;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+.card h3 {
+  margin-bottom: 0.7rem;
+  color: #064e3b;
+  transition: color 0.3s ease;
+}
+
+.card:hover h3 {
+  color: #065f46;
+}
+
+footer {
+  background: #064e3b;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+</style>
+</head>
+<body>
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Info.html">More Information</a></li>
+    <li><a href="about.html">About Us</a></li>
+  </ul>
+</nav>
+<section class="hero">
+  <div class="hero-box">
+    <h2>Stop Deforestation</h2>
+    <p>Deforestation is the large-scale cutting down of trees and forests, and it is a serious environmental problem that affects the Earth, animals, and humans in many ways. Forests are extremely important because they produce oxygen, absorb carbon dioxide, and help control the climate by keeping temperatures stable and supporting rainfall. Many animals, birds, and insects live in forests, and when trees are cut down, these living things lose their homes and food, which can cause them to die or become endangered. Deforestation often happens because people need land for farming, building houses, roads, and factories, or because trees are cut for wood, paper, and fuel. However, when forests are destroyed, the soil becomes weak and easily washes away during heavy rain, leading to floods and landslides. Without trees, the land also becomes dry and less fertile, making it difficult for plants to grow. Deforestation increases climate change because fewer trees are left to absorb harmful gases, causing the Earth to become warmer and weather patterns to change. Many communities depend on forests for food, medicine, and shelter, so deforestation can damage their way of life and cause poverty. If forests continue to disappear, future generations will face problems such as poor air quality, loss of wildlife, and extreme weather. Therefore, it is very important for people to protect forests by planting trees, reducing paper use, recycling, and supporting laws that help conserve nature so that the planet remains healthy and livable.
+    </p>
+  </div>
+
+  <img src="logs.jpg" class="img1">
+  <img src="deforestation.jpg" class="img2">
+  <img src="burning.jpg" class="img3">
+  <img src="plot.jpg" class="img4">
+
+</section>
+
+<section class="content">
+  <h2>Understanding Deforestation</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Causes</h3>
+      <p>Deforestation is mainly caused by human activities. Many forests are cleared to create farmland for crops and livestock, especially as the population grows. Trees are also cut down for wood, paper, and fuel, which are used in daily life. In addition, forests are destroyed to build roads, houses, and factories. In some areas, forests are burned to clear land quickly, which increases deforestation even more.</p>
+    </div>
+
+    <div class="card">
+      <h3>Effects</h3>
+      <p>Deforestation has many negative effects on the environment and living things. When forests are destroyed, animals lose their homes and food, which can lead to extinction. The loss of trees also causes soil erosion, floods, and landslides. Deforestation contributes to climate change because fewer trees are left to absorb carbon dioxide, making the Earth warmer. It also affects people by reducing air quality and damaging the livelihoods of communities that depend on forests.</p>
+    </div>
+
+    <div class="card">
+      <h3>Solutions</h3>
+      <p>There are several ways to reduce deforestation and protect forests. People can plant more trees through reforestation programs and reduce the use of paper by recycling. Governments can create and enforce laws that protect forests and stop illegal logging. Educating people about the importance of forests is also important so they understand how their actions affect the environment. By working together, humans can protect forests and ensure a healthier planet for future generations.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Group Project</p>
+</footer>
+
+</body>
+</html>
